@@ -1,0 +1,30 @@
+{
+    "smooth-pause-transition": {
+        "settings": {
+            "transitionDuration": {
+                "name": "Duración de Transición",
+                "hint": "Duración de la transición de pausa/reanudación en milisegundos"
+            },
+            "transitionTemplate": {
+                "name": "Plantilla de Transición",
+                "hint": "Plantilla de transición a utilizar"
+            },
+            "overlayOpacity": {
+                "name": "Opacidad del Overlay de Fondo de Pantalla Completa",
+                "hint": "Opacidad del overlay de fondo de pantalla completa cuando el juego está pausado"
+            },
+            "overlayColor": {
+                "name": "Color del Overlay de Fondo de Pantalla Completa",
+                "hint": "Color del overlay de fondo de pantalla completa cuando el juego está pausado"
+            },
+            "pauseSound": {
+                "name": "Sonido de Pausa",
+                "hint": "Archivo de sonido para reproducir al pausar el juego"
+            },
+            "pauseSoundVolume": {
+                "name": "Volumen del Sonido de Pausa",
+                "hint": "Establecer el volumen del sonido de pausa"
+            }
+        }
+    }
+} 

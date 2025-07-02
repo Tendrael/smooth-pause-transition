@@ -1,0 +1,128 @@
+#spt-pause-container {
+    pointer-events: none;
+    user-select: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.paused {
+    opacity: 1;
+}
+
+#spt-pause-container #pause {
+    display: flex!important;
+}
+
+#spt-pause-container #spt-pause-overlay {
+    pointer-events: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#spt-pause-container #spt-pause-wrapper {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Pop in template */
+#spt-pause-container.pop-in #spt-pause-wrapper {
+    scale: 0.8;
+    transition-timing-function: cubic-bezier(0.75, 0.02, 0.38, 1.6);
+}
+#spt-pause-container.pop-in.paused #spt-pause-wrapper {
+    scale: 1;
+}
+
+/* Pop out template */
+#spt-pause-container.pop-out #spt-pause-wrapper {
+    scale: 1.2;
+    transition-timing-function: cubic-bezier(0.75, 0.02, 0.38, 1.6);
+}
+#spt-pause-container.pop-out.paused #spt-pause-wrapper {
+    scale: 1;
+}
+
+/* Zoom in template */
+#spt-pause-container.zoom-in #spt-pause-wrapper {
+    transform: scale(0.6);
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.zoom-in.paused #spt-pause-wrapper {
+    transform: scale(1);
+}
+
+/* Zoom out template */
+#spt-pause-container.zoom-out #spt-pause-wrapper {
+    transform: scale(1.4);
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.zoom-out.paused #spt-pause-wrapper {
+    transform: scale(1);
+}
+
+/* Fade template */
+#spt-pause-container.fade #spt-pause-wrapper {
+    opacity: 0;
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.fade.paused #spt-pause-wrapper {
+    opacity: 1;
+}
+
+/* Blur template */
+#spt-pause-container.blur #spt-pause-wrapper {
+    filter: blur(10px);
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.blur.paused #spt-pause-wrapper {
+    filter: blur(0);
+}
+
+/* Slide from left template */
+#spt-pause-container.slide-from-left #spt-pause-wrapper {
+    transform: translateX(-50%);
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.slide-from-left.paused #spt-pause-wrapper {
+    transform: translateX(0);
+}
+
+/* Slide from right template */
+#spt-pause-container.slide-from-right #spt-pause-wrapper {
+    transform: translateX(50%);
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.slide-from-right.paused #spt-pause-wrapper {
+    transform: translateX(0);
+}
+
+/* Slide from top template */   
+#spt-pause-container.slide-from-top #spt-pause-wrapper {
+    transform: translateY(-50%);
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.slide-from-top.paused #spt-pause-wrapper {
+    transform: translateY(0);
+}
+
+/* Slide from bottom template */
+#spt-pause-container.slide-from-bottom #spt-pause-wrapper {
+    transform: translateY(50%);
+    transition-timing-function: ease-in-out;
+}
+#spt-pause-container.slide-from-bottom.paused #spt-pause-wrapper {
+    transform: translateY(0);
+}
+

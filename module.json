@@ -1,0 +1,60 @@
+{
+    "id": "smooth-pause-transition",
+    "title": "Smooth Pause Transition",
+    "description": "A lightweight Foundry VTT module that replaces the nonexistent default pause transition with smooth, customizable effects — including transition templates, an optional full-screen overlay, and optional sound effects.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Tendra",
+            "email": "tendra.dev@gmail.com",
+            "url": "https://github.com/Tendrael"
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "esmodules": [
+        "index.js"
+    ],
+    "styles": [
+        "styles/style.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "fr",
+            "name": "Français",
+            "path": "lang/fr.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        },
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        },
+        {
+            "lang": "it",
+            "name": "Italiano",
+            "path": "lang/it.json"
+        },
+        {
+            "lang": "pt",
+            "name": "Português",
+            "path": "lang/pt.json"
+        }
+    ],
+    "socket": true,
+    "url": "https://github.com/Tendrael/smooth-pause-transition",
+    "manifest": "https://github.com/Tendrael/smooth-pause-transition/releases/latest/download/module.json",
+    "download": "https://github.com/Tendrael/smooth-pause-transition/releases/download/v1.0.0/module.zip",
+    "license": "MIT"
+} 
