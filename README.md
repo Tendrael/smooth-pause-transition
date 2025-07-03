@@ -4,7 +4,7 @@ A lightweight Foundry VTT module that replaces the nonexistent default pause tra
 
 ## Youtube video showcase
 
-[![Simple Cinematic Pan Demo](https://img.youtube.com/vi/lLBbiiz_Y24/0.jpg)](https://www.youtube.com/watch?v=lLBbiiz_Y24)
+[![Smooth Pause Transition Demo](https://img.youtube.com/vi/KO2RvZFqhGU/0.jpg)](https://www.youtube.com/watch?v=KO2RvZFqhGU)
 
 ## Features
 
@@ -14,8 +14,7 @@ A lightweight Foundry VTT module that replaces the nonexistent default pause tra
 - **Customizable full-screen background overlay**: Optional full-screen background overlay with customizable color and opacity to match your game's theme
 - **Non-intrusive**: Works seamlessly with Foundry's existing pause system and might work with other modules that modify pause appearence or content
 - **Performance optimized**: Lightweight implementation with minimal impact on performance
-- **Multi-language support**: Available in English and French
-- **Configurable settings**: Fine-tune every aspect of the transition experience
+- **Multi-language support**: Available in English, French, Spanish, German, Italian, and Portuguese 
 
 ## Usage
 
@@ -23,10 +22,9 @@ A lightweight Foundry VTT module that replaces the nonexistent default pause tra
 
 The module works automatically once enabled. When you pause or unpause the game using Foundry's pause controls:
 
-1. **Pause the game**: Use the pause button in Foundry's interface or press the pause key
-2. **Smooth transition**: The pause overlay will appear with your chosen transition effect
-3. **Unpause the game**: The overlay will disappear with the same smooth transition
-4. **Sound feedback**: If configured, a sound will play when pausing
+1. **Pause the game**: Press the pause key
+2. **Smooth transition**: The pause overlay will appear with your chosen transition effect. If configured, your sound will play when pausing.
+3. **Unpause the game**: The pause overlay will disappear with the same smooth transition
 
 ### For players
 
@@ -47,7 +45,7 @@ The module offers several configurable settings accessible through the module se
 
 - **Foundry VTT**: Version 13+
 - **Systems**: Compatible with all systems (D&D 5e, Pathfinder 2e, etc.)
-- **Modules**: No known conflicts but be carefull with other modules that change the pause system
+- **Modules**: No known conflicts, but be careful with other modules that modify the pause system
 - **Browsers**: Works with all modern browsers that support Foundry VTT
 
 ## Support
@@ -77,4 +75,5 @@ I'm crafting free and premium modules for Foundry VTT — focused on immersion, 
 I've chosen to dedicate a significant part of my free time to building quality content for the community, hoping that generous adventurers like you will help keep the forge burning. 🔥
 
 Support me on Patreon : https://www.patreon.com/Tendrael
+
 Join my Discord to get support, share suggestions, and enjoy sneak peeks : https://discord.gg/jMQm3muXVh

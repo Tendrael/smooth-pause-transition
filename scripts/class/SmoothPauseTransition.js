@@ -61,9 +61,6 @@ export class SmoothPauseTransition {
 
     /**
      * Handle pause transition
-     * @param {HTMLElement} element - The pause overlay element
-     * @param {number} duration - Transition duration in ms
-     * @param {string} easing - CSS easing function
      */
     handlePause() {
         const pauseContainer = document.querySelector('#spt-pause-container');
@@ -78,9 +75,6 @@ export class SmoothPauseTransition {
 
     /**
      * Handle unpause transition
-     * @param {HTMLElement} element - The pause overlay element
-     * @param {number} duration - Transition duration in ms
-     * @param {string} easing - CSS easing function
      */
     handleUnpause() {
         const pauseContainer = document.querySelector('#spt-pause-container');
