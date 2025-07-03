@@ -11,13 +11,6 @@ export class SmoothPauseTransition {
     }
 
     /**
-     * Set up module hooks and event listeners
-     */
-    setupHooks() {
-        console.log(`${MODULE_ID} | Module hooks initialized`);
-    }
-
-    /**
      * Initialize the pause element
      */
     initPauseElements() {
