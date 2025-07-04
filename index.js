@@ -26,20 +26,8 @@ async function initModule() {
     };
 }
 
-/**
- * Set up hooks when the module is ready
- * Configures class hooks and listeners
- */
-function handleReadyHook() {
-    // Configure hooks and listeners via the class
-    if (smoothPauseTransitionInstance) {
-        smoothPauseTransitionInstance.setupHooks();
-    }
-}
-
 // Configure Foundry VTT hooks
 Hooks.once('init', initModule);
-Hooks.once('ready', handleReadyHook);
 
 // Hook for pause/unpause transitions
 Hooks.on('renderGamePause', (application, element, context, options) => {
@@ -47,3 +35,9 @@ Hooks.on('renderGamePause', (application, element, context, options) => {
         smoothPauseTransitionInstance.handlePauseTransition(element);
     }
 }); 
+
+// Hook for render settings config
+Hooks.on('renderSettingsConfig', (app, html) => {
+    const element = html.querySelector('[name="' + MODULE_ID + '.overlayColor"]');
+    element.type = 'color';
+});

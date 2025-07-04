@@ -59,7 +59,6 @@ export function registerSettings() {
         scope: 'world',
         config: true,
         type: String,
-        color: true,
         default: '#000000',
         requiresReload: true
     });

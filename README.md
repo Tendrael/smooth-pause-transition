@@ -1,6 +1,6 @@
 # Smooth Pause Transition
 
-[![Download Count](https://img.shields.io/github/downloads/Tendrael/smooth-pause-transition/module.zip?color=77ccd5&label=DOWNLOADS&style=for-the-badge)
+![Download Count](https://img.shields.io/github/downloads/Tendrael/smooth-pause-transition/module.zip?color=77ccd5&label=DOWNLOADS&style=for-the-badge)
 
 A lightweight Foundry VTT module that replaces the nonexistent default pause transition with smooth, customizable effects — including transition templates, an optional full-screen overlay, and optional sound effects.
 
