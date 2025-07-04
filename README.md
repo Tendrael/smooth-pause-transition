@@ -1,5 +1,7 @@
 # Smooth Pause Transition
 
+[![Download Count](https://img.shields.io/github/downloads/Tendrael/smooth-pause-transition/module.zip?color=77ccd5&label=DOWNLOADS&style=for-the-badge)
+
 A lightweight Foundry VTT module that replaces the nonexistent default pause transition with smooth, customizable effects — including transition templates, an optional full-screen overlay, and optional sound effects.
 
 ## Youtube video showcase
@@ -22,9 +24,10 @@ A lightweight Foundry VTT module that replaces the nonexistent default pause tra
 
 The module works automatically once enabled. When you pause or unpause the game using Foundry's pause controls:
 
-1. **Pause the game**: Press the pause key
+1. **Pause the game**.
 2. **Smooth transition**: The pause overlay will appear with your chosen transition effect. If configured, your sound will play when pausing.
-3. **Unpause the game**: The pause overlay will disappear with the same smooth transition
+3. **Unpause the game**.
+4. **Smooth transition**: The pause overlay will disappear with the same smooth transition
 
 ### For players
 
